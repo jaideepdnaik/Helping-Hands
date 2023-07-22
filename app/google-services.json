@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "386067453068",
+    "project_id": "helping-hands-431d3",
+    "storage_bucket": "helping-hands-431d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386067453068:android:00386ba7c80781abc417a9",
+        "android_client_info": {
+          "package_name": "com.example.disastersafetyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386067453068-5r6mio4fvkg84dl4emuigjvcfg5rla42.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.disastersafetyapp",
+            "certificate_hash": "c9c3f054d12bb818fa67caaabe56e10ac04c65c9"
+          }
+        },
+        {
+          "client_id": "386067453068-hdm3esjhsibqm1rru48v39l13pc9vrfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFEgVEkbC0g8BbwSyk3NLhp2hiwJAxrEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386067453068-hdm3esjhsibqm1rru48v39l13pc9vrfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

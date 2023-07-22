@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1E0FF"
+    tools:context=".ui.activity_earthquake_steps">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/top_background" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="361dp"
+        android:layout_height="606dp"
+        android:background="#ffff"
+        android:fontFamily="@font/cabin_medium"
+        android:paddingLeft="30dp"
+        android:paddingTop="30dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="30dp"
+        android:text="1.Have the person sit upright and slightly lean forward.\n\n 2.Ask the person to breathe through their mouth and not to tilt their head backward.\n\n 3.Using your thumb and index finger, pinch the soft part of their nose together, just below the bridge.\n\n 4.Maintain constant pressure for about 10-15 minutes without releasing.\n\n 5.Encourage the person to spit out any blood that accumulates in their mouth, rather than swallowing it.\n\n 6.After 10-15 minutes, release the pressure and check if the bleeding has stopped.\n\n 7.If bleeding persists, reapply pressure for another 10-15 minutes.\n\n 8.If bleeding continues after two attempts or is accompanied by other concerning symptoms, seek medical attention.\n\n 9.Advise the person to avoid blowing their nose forcefully or engaging in activities that may cause the nose to bleed again for at least 24 hours.\n\n"
+        android:textColor="@color/purple"
+        android:textSize="14.5sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957" />
+
+    <TextView
+        android:id="@+id/titlehome"
+        android:layout_width="414dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/cabin_medium"
+        android:text="Disaster Safety"
+        android:textAlignment="center"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cabin_medium"
+        android:text="NOSE BLEEDS EMERGENCY STEPS"
+        android:textAlignment="center"
+        android:textColor="@color/purple"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

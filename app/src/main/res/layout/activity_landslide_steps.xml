@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1E0FF"
+    tools:context=".ui.activity_earthquake_steps">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/top_background" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="361dp"
+        android:layout_height="606dp"
+        android:background="#ffff"
+        android:fontFamily="@font/cabin_medium"
+        android:paddingLeft="30dp"
+        android:paddingTop="30dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="30dp"
+        android:text="1.Stay alert.\n\n2.Evacuate immediately.\n\n3.Move to higher ground.\n\n4.Alert others.\n\n5.Avoid river valleys and low-lying areas.\n\n6.Seek sturdy shelter.\n\n7.Cut off utilities.\n\n8.Listen to updates.\n\n9.Do not return until it is safe.\n\n10.Issue alert on the app.\n\n11.Remember, the most important priority during a landslide is your personal safety and the safety of those around you. Always follow the instructions and guidance of local authorities and emergency services."
+        android:textColor="@color/purple"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.943" />
+
+    <TextView
+        android:id="@+id/titlehome"
+        android:layout_width="414dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/cabin_medium"
+        android:text="Disaster Safety"
+        android:textAlignment="center"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cabin_medium"
+        android:text="LANDSLIDE EMERGENCY STEPS"
+        android:textAlignment="center"
+        android:textColor="@color/purple"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
